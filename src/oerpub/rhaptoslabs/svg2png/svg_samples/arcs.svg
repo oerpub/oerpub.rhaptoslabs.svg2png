@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="100%" height="100%" 
+	onload="startup(evt)"
+>
+<script>
+<![CDATA[
+
+xmlns="http://www.w3.org/2000/svg"
+var Doc;
+var O;
+var Col=new Array("red","cyan","green","yellow")
+var P=new Array()
+function startup(evt){
+	Root=document.documentElement
+	Doc=document
+	Root.setAttribute("onclick","ClickPoint(evt)")
+	drawlines(100,10)
+	//for (i in Col) P[Col[i]]=printNode(Doc.getElementById(Col[i])).split("\"")[1]
+	coolabel(0,0,15,15)
+	coolabel(100,100,-30,-15)
+	coolabel(200,150,15,15)
+	coolabel(270,128,10,55,P["red"])
+	coolabel(50,123,15,30,P["yellow"])
+	coolabel(150,180,0,50,P["green"])
+	coolabel(150,70,80,-10,P["cyan"])
+}
+
+function drawlines(u,t){
+	B=Root.getBBox()
+	var w=B.width
+	var h=B.height
+	for (i=0;i<=w/t;i++){
+		L=Doc.createElementNS(xmlns,"line")
+		L.setAttribute("x1",i*t)
+		L.setAttribute("x2",i*t)
+		L.setAttribute("y1",0)
+		L.setAttribute("y2",8)
+		L.setAttribute("stroke","blue")
+		L.setAttribute("stroke-width","1")
+		Root.appendChild(L)
+		if (i%10==0){
+			L=Doc.createElementNS(xmlns,"line")
+			L.setAttribute("x1",i*t)
+			L.setAttribute("x2",i*t)
+			L.setAttribute("y1",0)
+			L.setAttribute("y2",h)
+			L.setAttribute("stroke","#08a")
+			L.setAttribute("stroke-width","1")
+			Root.appendChild(L)
+		}
+	}
+	for (i=0;i<=h/t;i++){
+		L=Doc.createElementNS(xmlns,"line")
+		L.setAttribute("x1",0)
+		L.setAttribute("x2",8)
+		L.setAttribute("y1",i*t)
+		L.setAttribute("y2",i*t)
+		L.setAttribute("stroke","blue")
+		L.setAttribute("stroke-width","1")
+		Root.appendChild(L)
+		if (i%10==0){
+			L=Doc.createElementNS(xmlns,"line")
+			L.setAttribute("x1",0)
+			L.setAttribute("x2",w)
+			L.setAttribute("y1",i*t)
+			L.setAttribute("y2",i*t)
+			L.setAttribute("stroke","#08a")
+			L.setAttribute("stroke-width","1")
+			Root.appendChild(L)
+		}
+	}
+
+	
+
+}
+function coolabel(x,y,ox,oy,l){
+	if (l==null) label=x+","+y
+	else label=l
+	E=Doc.createElementNS(xmlns,"circle")
+	E.setAttribute("cx",x)
+	E.setAttribute("cy",y)
+	E.setAttribute("r",5)
+	E.setAttribute("stroke","green")
+	E.setAttribute("stroke-width","3")
+	E.setAttribute("opacity",".4")
+	E.setAttribute("fill","yellow")
+	Root.appendChild(E)
+	L=Doc.createElementNS(xmlns,"line")
+	L.setAttribute("x1",x)
+	L.setAttribute("x2",x+ox)
+	L.setAttribute("y1",y)
+	L.setAttribute("y2",y+oy)
+	L.setAttribute("stroke","red")
+	L.setAttribute("stroke-width","2")
+	Root.appendChild(L)
+	T=Doc.createElementNS(xmlns,"text")
+	T.setAttribute("x",x+ox-label.length*2)
+	if (oy>0)
+	T.setAttribute("y",y+oy+12)
+	else
+	T.setAttribute("y",y+oy-4)
+	T.setAttribute("font-size",12)
+	if (l==null) T.setAttribute("fill","blue")
+	else T.setAttribute("fill","black")
+	msg=Doc.createTextNode(label)
+	T.appendChild(msg)
+	Root.appendChild(T)
+	
+}
+function ClickPoint(evt){
+	coolabel(evt.clientX,evt.clientY,15,15)
+}
+//]]>
+</script>
+<rect id="BB" x="0" y="0" height="100%" width="100%" fill="white"/>
+
+<path d="M100 100 A 30,50 0 0,0 200,150 z" id="green"
+	opacity="0.5" fill="#080" stroke="#8f8" stroke-width="5" />
+<path d="M100 100 A 30,50 0 0,1 200,150 z" id="cyan"
+	opacity="0.5" fill="#088" stroke="cyan" stroke-width="5" />
+<path d="M100 100 A300,30 0 0,0 200,150 " id="yellow"
+	opacity="0.5" fill="#880" stroke="yellow" stroke-width="5" />
+<path d="M100 100 A300,30 0 0,1 200,150 " id="red"
+	opacity="0.5" fill="#800" stroke="red" stroke-width="5" />
+
+</svg>
+
