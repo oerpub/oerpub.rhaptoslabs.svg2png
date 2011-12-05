@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="220"
+   height="220"
+   id="svg3945">
+  <defs
+     id="defs3947" />
+  <g
+     id="layer1">
+    <rect
+       width="66.365761"
+       height="30.799921"
+       x="21.179064"
+       y="32.529922"
+       id="rect3955"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       x="51.386562"
+       y="82.18045"
+       id="text4466"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"><tspan
+         x="51.386562"
+         y="82.18045"
+         id="tspan4468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">Rechteck</tspan></text>
+    <path
+       d="M 175.00893,39.785271 A 24.218407,20.152544 0 1 1 126.57212,39.785271 A 24.218407,20.152544 0 1 1 175.00893,39.785271 z"
+       transform="matrix(1.0035911,0,0,0.8306403,20.085915,10.783965)"
+       id="path4470"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#73d216;stroke-width:2.19050932;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       d="M 177.83735,33.774864 A 23.688078,23.688078 0 1 1 130.4612,33.774864 A 23.688078,23.688078 0 1 1 177.83735,33.774864 z"
+       transform="matrix(0.7422253,0,0,0.7422253,30.311157,11.888285)"
+       id="path4472"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4e9a06;stroke-width:2.69459963;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       x="162.05019"
+       y="81.340027"
+       transform="scale(0.9897734,1.0103322)"
+       id="text4474"
+       xml:space="preserve"
+       style="font-size:13.85682774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"><tspan
+         x="162.05019"
+         y="81.340027"
+         id="tspan4476"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">Kreis + Ellipse</tspan></text>
+    <path
+       d="M 12.384203,170.62489 C 39.606892,182.41203 43.563696,154.56243 49.148866,142.56026 C 62.339244,114.215 101.34906,145.64737 101.34906,145.64737"
+       id="path4478"
+       style="fill:#ef2929;fill-opacity:0.62738851;fill-rule:evenodd;stroke:#a40000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 149.67441,109.55661 L 149.32086,127.23428 L 127.04699,144.20485 L 140.48202,172.84267 L 188.21173,167.18582 L 191.74726,119.10255 L 149.67441,109.55661 z"
+       id="path4486"
+       style="fill:#edd400;fill-opacity:0.59554144;fill-rule:evenodd;stroke:#c4a000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="51.386562"
+       y="192.18045"
+       id="text4492"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"><tspan
+         x="51.386562"
+         y="192.18045"
+         id="tspan4494"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">Pfad</tspan></text>
+    <text
+       x="161.38657"
+       y="192.18045"
+       id="text4496"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:tb-rl;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"><tspan
+         x="161.38657"
+         y="192.18045"
+         id="tspan4498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">Polygon</tspan></text>
+  </g>
+</svg>
