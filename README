@@ -1,5 +1,5 @@
 oerpub.rhaptoslabs.svg2png
 --------------------------
 
-Converts SVG (including OOo special SVG) to PNG
+Converts SVG to PNG with Cairo
 
